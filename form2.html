@@ -1,0 +1,44 @@
+<style>
+
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    label, input, textarea {
+      display: block;
+      width: 100%;
+      box-sizing: border-box; 
+    }
+    
+    @media (min-width: 500px) {
+      
+      form {
+        padding: 40px;
+      }
+    
+      label, input, textarea {
+        width: 80%;
+        margin-bottom: 20px;
+      }
+    
+    }
+    
+    </style>
+    
+    <form>
+    
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+    
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+    
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+      
+      <input type="submit" value="Submit">
+    
+    </form>
+    <a href="form1.html">Повернутися на головну </a>
