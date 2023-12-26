@@ -1,25 +1,23 @@
-<form>
-    <label for="first_name">First Name:</label><br>
-    <input type="text" id="first_name" name="first_name"><br>
+<form> <label for="first_name">First Name:</label><br>
+  <input type="text" id="first_name" name="first_name" placeholder="John" required><br>
   
-    <label for="last_name">Last Name:</label><br>  
-    <input type="text" id="last_name" name="last_name"><br>
+  <label for="last_name">Last Name:</label><br>
   
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="message"></textarea><br>
+  <input type="text" id="last_name" name="last_name" placeholder="Doe" required><br>
   
-    <label for="gender">Gender:</label><br>
-    <select id="gender" name="gender">
-      <option value="male">Male</option>
-      <option value="female">Female</option>
-    </select><br>
+  <label for="message">Message:</label><br>
   
-    <label for="age">Age:</label><br>
-    <input type="number" id="age" name="age"><br>
+  <textarea id="message" name="message" placeholder="Enter your message here" required></textarea><br>
+  <label for="gender">Gender:</label><br>
   
-    <label for="birthday">Date of Birth:</label><br>
-    <input type="date" id="birthday" name="birthday"><br><br>
+  <select id="gender" name="gender" required> <option value="">Select</option> <option value="male">Male</option> <option value="female">Female</option> </select><br>
+  <label for="age">Age:</label><br>
   
-    <input type="submit" value="Submit">
-  </form>
-  <a href="form2.html">Перейти до форми 2 </a>
+  <input type="number" id="age" name="age" min="0" max="150" placeholder="25" required><br>
+  
+  <label for="birthday">Date of Birth:</label><br>
+  
+  <input type="date" id="birthday" name="birthday" required><br><br>
+  
+  <input type="submit" value="Submit"> </form>
+  <a href="form2.html">Перейти до форми 2</a>
